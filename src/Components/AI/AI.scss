@@ -1,0 +1,68 @@
+.ai {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background: var(--color-footer);
+  font-family: var(--font-family);
+  background: -moz-radial-gradient(circle at 14% 24%, rgba(6, 5, 22, 1) 0%, rgba(33, 24, 134, 1) 100%);
+
+  background: -webkit-radial-gradient(circle at 14% 24%, rgba(6, 5, 22, 1) 0%, rgba(33, 24, 134, 1) 100%);
+
+  background: -o-radial-gradient(circle at 14% 24%, rgba(6, 5, 22, 1) 0%, rgba(33, 24, 134, 1) 100%);
+
+
+  background: -ms-radial-gradient(circle at 14% 24%, rgba(6, 5, 22, 1) 0%, rgba(33, 24, 134, 1) 100%);
+
+  background: radial-gradient(circle at 14% 24%, rgba(6, 5, 22, 1) 0%, rgba(33, 24, 134, 1) 100%);
+
+  .ai-features {
+    display: flex;
+    margin-bottom: 6rem;
+
+    h2 {
+      color: #fff;
+      font-weight: 800;
+      font-size: 24px;
+
+      line-height: 75px;
+    }
+
+    p {
+      color: #81AFDD;
+      font-weight: 500;
+      font-size: 16px;
+
+      line-height: 30px;
+    }
+  }
+
+  .ai_header {
+    display: flex;
+
+
+    h1 {
+      font-weight: 800;
+      flex: 1;
+      font-size: 34px;
+      line-height: 45px;
+    }
+
+    p {
+      color: #FF8A71;
+      line-height: 30px;
+      font-size: 16px;
+    }
+  }
+
+  .chat-container {
+    display: flex;
+
+    h3 {
+      color: white;
+    }
+
+    p {
+      color: #81AFDD;
+    }
+  }
+}
