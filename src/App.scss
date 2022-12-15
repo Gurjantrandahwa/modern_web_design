@@ -9,3 +9,8 @@ body {
   background: var(--color-bg);
 }
 
+.line {
+  width: 38px;
+  height: 3px;
+  background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}

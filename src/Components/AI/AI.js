@@ -2,7 +2,8 @@ import React from "react";
 import "./AI.scss";
 
 export default function AI() {
-    return <div className={"ai section_margin"} id={"artificial "}>
+    return <div className={"ai section_margin"} id={"artificial"}>
+        <div className={"line"}/>
         <div className={"ai-features"}>
             <h2>
                 What is AI
@@ -13,7 +14,7 @@ export default function AI() {
         </div>
         <div className={"ai_header"}>
             <h1 className={"gradient_text"}>
-                The possibilities are beyond your imagination
+                The possibilities are beyond <br/>your imagination
             </h1>
             <p>Explore The Library</p>
         </div>
@@ -33,7 +34,8 @@ export default function AI() {
                         text: "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b. "
                     },
                 ].map((value, index) => {
-                    return<div key={index}>
+                    return<div key={index} className={"single-chat"}>
+                        <div className={"line"}/>
                         <h3>{value.header}</h3>
                         <p>{value.text}</p>
                     </div>

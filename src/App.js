@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import Brand from "./Components/Brand/Brand";
 import AI from "./Components/AI/AI";
+import Future from "./Components/Future/Future";
 
 function App() {
     return <div className={"app"}>
@@ -12,6 +13,7 @@ function App() {
         </div>
         <Brand/>
         <AI/>
+        <Future/>
     </div>
 }
 

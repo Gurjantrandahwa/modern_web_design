@@ -19,11 +19,12 @@
     display: flex;
     margin-bottom: 6rem;
 
+
     h2 {
       color: #fff;
       font-weight: 800;
       font-size: 24px;
-
+      flex: 0.33%;
       line-height: 75px;
     }
 
@@ -31,18 +32,18 @@
       color: #81AFDD;
       font-weight: 500;
       font-size: 16px;
-
+      flex: 2;
       line-height: 30px;
     }
   }
 
   .ai_header {
     display: flex;
-
+    margin-bottom: 3rem;
+    justify-content: space-between;
 
     h1 {
       font-weight: 800;
-      flex: 1;
       font-size: 34px;
       line-height: 45px;
     }
@@ -51,18 +52,60 @@
       color: #FF8A71;
       line-height: 30px;
       font-size: 16px;
+
     }
   }
 
   .chat-container {
     display: flex;
 
+    .single-chat {
+      flex: 1;
+      padding: 20px;
+    }
+
     h3 {
       color: white;
+      font-size: 24px;
+      line-height: 75px;
     }
 
     p {
       color: #81AFDD;
+      font-weight: 500;
+      margin-top: 1rem;
+      line-height: 30px;
     }
+  }
+
+
+
+  @media screen and (max-width: 850px) {
+    .ai-features {
+      flex-direction: column;
+      margin-bottom: 3rem;
+    }
+    .ai_header {
+      flex-direction: column;
+
+      h1 {
+        margin-bottom: 20px;
+      }
+    }
+    .chat-container {
+      flex-direction: column;
+
+      p {
+        margin-top: 15px;
+        line-height: 24px;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .ai {
+    padding: 1.5rem;
   }
 }

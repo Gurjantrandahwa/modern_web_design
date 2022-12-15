@@ -10,7 +10,7 @@ export default function Navbar() {
             <p><a href={"#home"}>Home</a></p>
             <p><a href={"#artificial"}>What is AI?</a></p>
             <p><a href={"#possibility"}>Open AI</a></p>
-            <p><a href={"#features"}>Studies</a></p>
+            <p><a href={"#future"}>Future</a></p>
             <p><a href={"#blogs"}>Library</a></p>
         </>
 
